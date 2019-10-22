@@ -207,3 +207,42 @@ main{
 .menu {
   margin-top: 7px;
 }
+.user-op ul{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: -50px;
+}
+.user-op ul li{
+  color: #606060;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  
+}
+.user-op ul li div{
+  display: flex;
+  margin-top: 15px;
+
+  
+}
+.user-parag{
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+.user-op ul li:last-child{
+  margin-top: 0px;
+
+}
+.user-op img{
+  margin-left: 30px;
+}
+.reactions ul{
+  display: flex;
+
+}
+.reactions {
+  width: 60%;
+
+}
