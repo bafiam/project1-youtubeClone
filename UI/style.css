@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,6 +13,8 @@ header {
   width: 100%;
   background: #fff;
   padding: 15px;
+  position: fixed;
+  top: 0;
 }
 
 .nav-list {
@@ -102,90 +105,84 @@ a {
   font-size: 14px;
   border: none;
   font-weight: 100;
-  font-family: Arial, Helvetica, sans-serif;
   border-radius: 4px;
 }
 main{
   display:flex;
-  width: 100%;
-  
+  width: 94%;
+  margin: 100px 3% 20px 3%;
 }
+
 .video-section{
   width: 70%;
-  
-  
 }
+
 .video{
   height: 400px;
 }
+
 .video iframe{
   width: 100%;
   height: 100%;
-
+  border: 0;
 }
+
 .aside-bar{
   width: 29%;
   margin-left: 1%;
   background-color: blue;
-
 }
+
 .video-prop{
   height: 150px;
   background-color: white;
   margin-top: 18px;
 }
+
 .video-prop ul li{
   list-style-type: none;
-
-  
-
 }
+
 .video-prop ul li:last-child{
   margin-top: 13px;
   margin-bottom: -2px;
-
-  
-
 }
+
 .video-prop ul li h4{
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #606060;
-
-  
-
 }
+
 .video-prop ul{
-  margin-left: -20px;
-  
+  margin-left: -20px; 
 }
+
 .video-subgroup{
   display: flex;
   margin-left: 20px;
   margin-top: 10px;
   padding-bottom: 10px;
 }
-.video-prop h1{
+
+.video-prop h2{
   margin-left: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   color: #606060;
   font-size: 20px;
   padding-top: 10px;
 }
+
 .video-prop h3{
   text-align: right;
   color: #606060;
-  font-family: Arial, Helvetica, sans-serif;
   margin-right: 10px;
   border-bottom: 2px solid rgb(22, 122, 198);
   margin-top: 40px;
-  
-  
-
 }
+
 .video-prop hr{
   margin-top: 0px;
 }
+
 .video-sup{
   display: flex;
   justify-content: space-between
@@ -207,42 +204,64 @@ main{
 .menu {
   margin-top: 7px;
 }
+
+
+.meta-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.user-op {
+  width: 40%;
+}
+
+
+.reactions {
+  justify-self: flex-end;
+  width: 60%;
+}
+
 .user-op ul{
   display: flex;
   justify-content: space-between;
-  width: 40%;
   margin-left: -50px;
 }
 .user-op ul li{
   color: #606060;
-  font-family: Arial, Helvetica, sans-serif;
-  
-
-  
 }
+
 .user-op ul li div{
   display: flex;
   margin-top: 15px;
-
-  
 }
+
 .user-parag{
   margin-top: 5px;
   margin-left: 10px;
-
 }
+
 .user-op ul li:last-child{
   margin-top: 0px;
-
 }
+
 .user-op img{
   margin-left: 30px;
 }
+
 .reactions ul{
-  display: flex;
-
+  margin-left: 360px;
 }
-.reactions {
-  width: 60%;
 
+.reactions ul li p {
+  margin-left: 5px;
+  color: #606060;
+}
+
+.reactions ul li {
+  align-self: flex-end;
+}
+
+.reactions ul li:last-child {
+  margin-right: 12px;
 }
