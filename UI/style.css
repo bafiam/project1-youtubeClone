@@ -130,7 +130,8 @@ main{
 .aside-bar{
   width: 29%;
   margin-left: 1%;
-  background-color: blue;
+  background-color: white;
+  padding: 15px;
 }
 
 .video-prop, .video-info, .video-comment{
@@ -307,4 +308,10 @@ main{
   justify-content: center;
   align-items: center;
   height: 100px;
+}
+
+.aside-bar img{
+  margin-top: -15px;
+
+
 }
