@@ -273,18 +273,19 @@ main{
   margin-right: 20px;
 }
 
-.video-info h3, .video-info p, .footer-selects{
+.video-info h3, .video-info p{
   margin-left: 20px;
   padding-right: 20px;
   margin-top: 10px;
   color: rgb(51, 51, 51);;
 }
+
 .video-info h3{
   padding-top: 10px;
   font-size: 14px;
-  
 }
-.video-info p, .end-sidebar, .footer-selects{
+
+.video-info p, .end-sidebar{
   font-size: 13px;
   
 }
@@ -298,12 +299,13 @@ main{
   margin: 30px auto 0px auto;
   width:95%;
 }
-.video-info p:last-child:hover, .end-sidebar:hover,.footer-selects:hover{
+
+.video-info p:last-child:hover, .end-sidebar:hover{
   cursor: pointer;
   border: 1px solid rgb(207, 75, 75);
   padding: 9px;
-  
 }
+
 .video-comment, .i-logo{
   display: flex;
   flex-direction: column;
@@ -374,6 +376,7 @@ main{
 .bottom {
   margin-bottom: 45px;
 }
+
 .footer-major-links, .footer-minor-links{
   width: 100%;
   margin-top: 20px;
@@ -381,25 +384,20 @@ main{
 }
 .footer-major-links ul, .footer-minor-links ul{
   width: 40%;
-
-  
 }
+
 .footer-major-links ul li, .footer-minor-links ul li{
   list-style-type: none;
-  
-  
 }
+
 .footer-major-links ul li{
   font-weight: bolder;
   color: rgb(51, 51, 51);
-  
-  
 }
+
 .footer-minor-links ul li{
   font-size: 13px;
   color: #626262;
-  
-  
 }
 
 .lower-footer-div{
@@ -407,8 +405,39 @@ main{
   padding-bottom: 10px;
 }
 
-.parags{
-  width: 100px;
-  height: 30px;
+.user-logo {
+  font-size:100%;
+  display:inline-block;
+  vertical-align:middle;
+  opacity:0.5;
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-color: transparent;
+  width:25px;
+  height:15px;
+  background-position: 0px -666px; 
+  background-repeat: no-repeat;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
+}
 
+.small-box {
+  width: 180px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.small-box:hover {
+  border: 1px solid rgb(207, 75, 75);
+  padding: 9px;
+}
+
+.small-box p {
+  font-size: 13px;
+}
+
+.down-arrow {
+  margin-top: -3px;
 }
