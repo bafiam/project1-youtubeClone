@@ -405,28 +405,57 @@ main{
   padding-bottom: 10px;
 }
 
-.user-logo {
+.youtube-logos {
   font-size:100%;
   display:inline-block;
   vertical-align:middle;
-  opacity:0.5;
-  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-color: transparent;
-  width:25px;
-  height:15px;
-  background-position: 0px -666px; 
   background-repeat: no-repeat;
   border-width: 0px;
   border-style: none;
   margin: 0px;
   padding: 0px;
   border-color: white;
+  opacity:0.5;
 }
+
+.user-logo {
+  width:25px;
+  height:15px;
+  background-position: 0px -666px; 
+}
+
+.user-logo, .hourglass, .question-mark {
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+}
+
+.hourglass {
+  width:12px;
+  height:15px;
+  background-position: -213px -605px; 
+}
+
+
+.question-mark {
+  width: 15px;
+  height: 16px;
+  background-position: -147px -230px; 
+}
+
 
 .small-box {
   width: 180px;
   background-color: #f2f2f2;
   padding: 10px;
+  align-self: center;
+}
+
+.smaller-box {
+  width: 90px;
+}
+
+.smallest-box {
+  width: 70px;
 }
 
 .small-box:hover {
@@ -440,4 +469,10 @@ main{
 
 .down-arrow {
   margin-top: -3px;
+}
+
+.upper-footer-div {
+  width: 70%;
+  margin-left: 43px;
+  
 }
