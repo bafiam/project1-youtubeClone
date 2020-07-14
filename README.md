@@ -2,11 +2,15 @@
 
 This project consists of building an HTML document that matches the appearance of youtube [video player page](https://www.youtube.com/watch?v=V74l_zS1x8E).
 
+## Screenshots
+
+![screenshot](youtube.png)
+
 ## Project Description
 
 <https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video>
 
-## Prerequisites
+## Run locally
 
 1. Clone the project- git clone <https://github.com/bafiam/project1-youtubeClone.git>
 2. Cd youtube-clone
